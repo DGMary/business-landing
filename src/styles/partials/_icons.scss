@@ -1,0 +1,25 @@
+@import '_mixins';
+
+.icon-date {
+  @include sprite(ic-date);
+}
+.icon-address {
+  @include sprite(ic-address);
+  margin-top: -7px;
+}
+.icon-email {
+  @include sprite(ic-email);
+}
+.icon-phone {
+  @include sprite(ic-phone);
+  margin-top: -3px;
+}
+.icon-reg {
+  @include sprite(ic-reg);
+}
+.icon-greeting {
+  @include sprite(ic-greeting);
+}
+.icon-break {
+  @include sprite(ic-break);
+}
